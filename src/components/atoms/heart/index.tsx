@@ -6,7 +6,7 @@ import { twMerge } from 'tailwind-merge';
 const Heart: FunctionComponent<HTMLAttributes<HTMLDivElement>> = ({ className, ...props }) => {
     return (
         <div className={twMerge('', className)} {...props}>
-            <img src={iconHeart} alt="" />
+            <img src={iconHeart} alt="" className='w-full'/>
         </div>
     )
 }
